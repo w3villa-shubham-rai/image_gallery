@@ -1,0 +1,40 @@
+*
+{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.container
+{
+    max-width: 1850px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border: 2px solid red;
+    text-align: center;
+}
+ 
+
+.galleryimg
+{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+}
+.images img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.utility 
+{
+    border: 2px solid rgb(68, 0, 255);
+    width: 300px;
+    height: 300px;
+}
+
+
